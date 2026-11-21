@@ -14,7 +14,7 @@ if st.button("Submit"):
     if name.strip():
         st.success(f"Hello, {name}! Your application is working.")
     else:
-        st.warning("Please enter your name.")
+        st.warning("ENTER NAME.")
 
 st.divider()
 
